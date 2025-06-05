@@ -20,7 +20,7 @@ time.sleep(3)
 
 # Passo 2: Fazer login
     # preencher o email
-pyautogui.click(x=1298, y=400)
+pyautogui.click(x=936, y=439)
 pyautogui.write('joaovitor@gmail.com')
 
     # preencher a senha
@@ -41,7 +41,7 @@ tabela_df = pd.read_csv('produtos.csv')
 
 # Passo 4: Cadastrar todos os produtos
 for linha in tabela_df.index: # para cada linha da minha tabela
-    pyautogui.click(x=1231, y=276)
+    pyautogui.click(x=856, y=307)
 
     codigo = tabela_df.loc[linha, 'codigo']
     pyautogui.write(codigo)
